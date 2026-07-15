@@ -73,7 +73,7 @@ public class ReportFilter {
         System.out.println("Total Income:  " + money.format(totalIncome));
         System.out.println("Total Expenses:  " + money.format(totalExpenses));
         System.out.println("Net:  " + money.format(totalIncome + totalExpenses));
-        CommmonUtils.formatSpaces();
+        CommonUtils.formatSpaces();
     }
 
     public static void customSearch(ArrayList<TransactionApp> transactions, String startDateInput, String endDateInput,
