@@ -53,7 +53,6 @@ public class ReportScreen {
                     ReportFilter.customSearch(transaction, startDateInput, endDateInput, descriptionInput, vendorInput, amountInput);
                 }
                 case 0 -> running = false;
-
                 default ->{
                     System.out.println("You can't sit with us.\uD83D\uDC85\uD83D\uDC6F press enter to try again.");
                     Main.scanner.nextLine();
